@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Amazon clone part 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- site:cdnjs font awesome, first link to show icons-->
+    <link rel="stylesheet" href="style.css">
+     <!-- site:font awesome, to use free icons -->
+   
+</head>
+<body>
+ <header>
+    <div class="Navbar ">
+        <div class="navlogo ">
+            <div class="logo border"></div>
+          </div>
+          <!-- <div class="nav-add border">
+            <p>Deliver to</p>
+             <div class="nav-add-icon">
+                <i class="fa-solid fa-location-dot fa-bounce"></i>
+                <p>India</p>
+             </div>
+             
+        </div> -->
+        <div class="nav-add border">
+          <div class="nav-add-icon">
+            <i class="fa-solid fa-location-dot fa-bounce"></i>
+          </div>
+           <div class="nav-add-first"><p>Deliver to</p></div>
+           <div class="nav-add-second"><p>India</p></div>
+    
+        </div>
+       
+        <div class="nav-search-bar " >
+            <select name="" id="" class="selection">
+                <option value="">All</option>
+                <option value="">Grocery</option>
+                <option value="">computer</option>
+                <option value="">Books</option>
+                
+            </select>
+            <input type="text" placeholder="Search Amazon"  >
+          <div class="icon1 "> <i class="fa-solid fa-magnifying-glass fa-beat" width="30px"></i></div>
+          
+        
+        </div>
+        <div class="sign-in border">
+           <p class="first">Hello,sign in</p>
+           <p class="second">Account & Lists<select name="" id="" class="selection1"></select>
+          </p>
+        </div>
+        <div class="return border">
+          <p class="return-first">Returns</p>
+          <p class="return-second">& Orders</p>
+        </div>
+        <div class="cart border">
+          <i class="fa-solid fa-cart-shopping " ></i>
+            <p>Cart</p>
+        </div>
+    </div>
+    <div class="menubar border">
+     <div class="menubar-icon border">
+      <i class="fa-solid fa-bars"></i>
+      <div class="all"><a href="" >All</a></div>
+    </div> 
+    <div class="new-deals border">
+      <a href="">Today's Deals</a>
+    </div>
+     <div class="service border"> <a href="">Customer Service</a></div>
+     <div class="registry border">
+      <a href="">Registry</a>
+     </div>
+     <div class="offer border"><a href="">Gift Cards</a></div>
+     <div class="sell border"><a href="">Sell</a></div>
+     <div class="great-deals border"  ><a href="" > Shop great deals now</a></div>
+    </div>
+    <div class="hero-section">
+        <div class="hero-msg">
+            You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="">Click here to go to amazon.in</a>
+        </div>
+        
+    </div>
+
+
+    <div class="shop-section">
+       
+        <div class="box1 box">
+        <span>  <h2>Health & Personal Care</h2></span>
+         <span> <div class="back-img"></div></span>
+        <span> <a href="https://www.amazon.com/s?i=specialty-aps&bbn=16225006011&rh=n%3A%2116225006011%2Cn%3A3777891&pd_rd_r=44c121c4-97ba-48bb-85cc-5b525e728a2f&pd_rd_w=Si7m7&pd_rd_wg=spHtp&pf_rd_p=619b2b85-1519-44b0-b10f-193bd022e08c&pf_rd_r=7ZX27EN07Q3K84EFKJKM&ref=pd_gw_unk">Shop now</a></span>
+        </div>
+
+        <div class="box2 box">
+        <span><h2>Electronics</h2></span>
+        <span><div class="back-img"></div></span>
+        <span><a href="https://www.amazon.com/b?node=16225009011&pf_rd_r=7ZX27EN07Q3K84EFKJKM&pf_rd_p=9423ec2b-661b-4bff-badb-11576810540b&pd_rd_r=44c121c4-97ba-48bb-85cc-5b525e728a2f&pd_rd_w=xegTl&pd_rd_wg=spHtp&ref_=pd_gw_unk">See more</a></span>
+      </div>
+
+        <div class="box3 box">
+          <span><h2>Beauty Picks</h2></span>
+          <span><div class="back-img"></div></span>
+           <span><a href="https://www.amazon.com/b/?node=16225006011&pf_rd_r=7ZX27EN07Q3K84EFKJKM&pf_rd_p=375e1985-8c9f-4c8f-a75e-0303cb92af37&pd_rd_r=44c121c4-97ba-48bb-85cc-5b525e728a2f&pd_rd_w=79F5w&pd_rd_wg=spHtp&ref_=pd_gw_unk">Shop now</a></span>
+        </div>
+        <div class="box4 box">
+          <span><h2>Dresses</h2></span>
+          <span><div class="back-img"></div></span>
+           <span><a href="https://www.amazon.com/s?i=fashion-womens-intl-ship&bbn=16225018011&rh=n%3A16225018011%2Cn%3A1040660%2Cn%3A1045024&pd_rd_r=44c121c4-97ba-48bb-85cc-5b525e728a2f&pd_rd_w=cceUK&pd_rd_wg=spHtp&pf_rd_p=204a7be2-0797-4b40-866c-f65ae94a05f3&pf_rd_r=7ZX27EN07Q3K84EFKJKM&qid=1646786470&rnid=1040660&ref=pd_gw_unk">Shop now</a></span>
+        </div>
+
+        <div class="box5 box">
+          <span>  <h2>Computer & Accessories</h2></span>
+           <span> <div class="back-img"></div></span>
+          <span> <a href="">See more</a></span>
+          </div>
+
+          <div class="box6 box">
+            <span>  <h2>Discover fashion trends</h2></span>
+             <span> <div class="back-img"></div></span>
+            <span> <a href="">Shop now</a></span>
+            </div>
+
+            <div class="box7 box">
+              <span>  <h2>Home & Kitchen</h2></span>
+               <span> <div class="back-img"></div></span>
+              <span> <a href="">Shop now</a></span>
+              </div>
+
+              <div class="box8 box">
+                <span>  <h2>Shop Laptops & Tablets</h2></span>
+                 <span> <div class="back-img"></div></span>
+                <span> <a href="">See more</a></span>
+                </div>
+   
+    </div>
+ </header>
+ <footer>
+ <div class="foot-panel1">
+  Back to top
+ </div>
+ <div class="foot-panel2">
+  
+   <ul>
+     <p>Get to Know Us</p>
+     <a href="">Careers</a>
+     <a href="">Blog</a>
+     <a href="">About Amazon</a>
+     <a href="">Investor Relations</a>
+     <a href="">Amazon Devices</a>
+     <a href="">Amazon Science</a>
+   </ul>
+
+   <ul>
+     <p>Make Money with Us</p>
+     <a href="">Sell products on Amazon</a>
+     <a href="">Sell on Amazon Business</a>
+     <a href="">Sell apps on Amazon</a>
+     <a href="">Become an Affiliate</a>
+     <a href="">Advertise Your Products</a>
+     <a href="">Self-Publish with Us</a>
+     <a href="">Host an Amazon Hub</a>
+    
+   </ul>
+
+   <ul>
+     <p>Amazon Payment Products</p>
+     <a href="">Amazon Business Card</a>
+     <a href="">Shop with Points</a>
+     <a href="">Reload Your Balance</a>
+     <a href="">Amazon Currency Converter</a>
+    
+   </ul>
+
+   <ul>
+     <p>Let Us Help You</p>
+     <a href="">Amazon and COVID-19</a>
+     <a href="">Your Account</a>
+     <a href="">Your Orders</a>
+     <a href="">Shipping Rates & Policies</a>
+     <a href="">Returns & Replacements</a>
+     <a href="">Manage Your Content and Devices</a>
+     <a href="">Amazon Assistant</a>
+     <a href="">Help</a>
+   </ul>
+
+ </div>
+   <div class="foot-panel3">
+    <div class="logo"></div>
+   </div>
+   <div class="foot-panel4">
+    <div class="pages">
+      <a href="">Conditions of Use</a>
+      <a href="">Privacy Notice</a>
+      <a href="">Your Ads Privacy Choices</a>
+      <span><p>© 1996-2023, Amazon.com, Inc. or its affiliates</p></span>
+    </div>
+   </div>
+ </footer>
+ 
+</body>
+</html>
+<!-- 7:09:01 -->
